@@ -69,7 +69,7 @@ active {
 
 .wrap {
     background-image: url(/img/Frame\ 1.png);
-    height: 700px;
+    height: auto;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -214,14 +214,16 @@ h6 {
 a {
     font-size: 16px;
     color: #EBC154;
-  }
-  a:hover {
+}
+
+a:hover {
     font-size: 16px;
     color: #EBC154;
-  }
-  .link{
+}
+
+.link {
     font-size: 6px;
-  }
+}
 
 footer {
     margin-top: 250px;
@@ -283,55 +285,56 @@ footer .footer-navigation {
 
 
 @media only (max-width:1920px) {
-        .line4 {
-            position: relative;
-            border: none;
-            height: 3px;
-            background: #EBC154;
-            width: 180px;
-            margin-left: 840px;
-        }
-    
-        .line5 {
-            position: relative;
-            border: none;
-            height: 3px;
-            background: #EBC154;
-            width: 150px;
-            margin-left: 850px;
-    
-        }
-        
-.line2 {
-    position: relative;
-    border: none;
-    height: 8px;
-    background: #EBC154;
-    width: 100px;
-    align-self: center;
-    margin-left: 400px;
-}
+    .line4 {
+        position: relative;
+        border: none;
+        height: 3px;
+        background: #EBC154;
+        width: 180px;
+        margin-left: 840px;
+    }
 
-.line3 {
-    position: relative;
-    border: none;
-    height: 8px;
-    background: #EBC154;
-    width: 150px;
-    align-self: center;
-    margin-left: 570px;
-}
-
-.line {
-
-    border: none;
-    height: 6px;
-    background: #EBC154;
-    width: 80px;
-    margin-left: 30px;
-}
+    .line5 {
+        position: relative;
+        border: none;
+        height: 3px;
+        background: #EBC154;
+        width: 150px;
+        margin-left: 850px;
 
     }
+
+    .line2 {
+        position: relative;
+        border: none;
+        height: 8px;
+        background: #EBC154;
+        width: 100px;
+        align-self: center;
+        margin-left: 400px;
+    }
+
+    .line3 {
+        position: relative;
+        border: none;
+        height: 8px;
+        background: #EBC154;
+        width: 150px;
+        align-self: center;
+        margin-left: 570px;
+    }
+
+    .line {
+
+        border: none;
+        height: 6px;
+        background: #EBC154;
+        width: 80px;
+        margin-left: 30px;
+    }
+
+}
+
 @media (max-width:1024px) {
     .line4 {
         position: relative;
@@ -352,164 +355,172 @@ footer .footer-navigation {
 
     }
 
-    @media (max-width:768px) {
-        .line4 {
-            position: relative;
-            border: none;
-            height: 3px;
-            background: #EBC154;
-            width: 150px;
-            margin-left: 310px;
-        }
+    .room-card .cities {
+        left: 30px;
+    }
 
-        .line2 {
-            position: relative;
-            border: none;
-            height: 8px;
-            background: #EBC154;
-            width: 100px;
-            align-self: center;
-            margin-left: 310px;
-        }
+    * {
+        overflow-x: hidden;
+    }
 
-        .navbar-nav li {
-            padding-left: 18px;
+}
 
-        }
+@media (max-width:768px) {
+    .line4 {
+        position: relative;
+        border: none;
+        height: 3px;
+        background: #EBC154;
+        width: 150px;
+        margin-left: 310px;
+    }
 
-        .line5 {
-            position: relative;
-            border: none;
-            height: 3px;
-            background: #EBC154;
-            width: 130px;
-            margin-left: 310px;
-        }
+    .line2 {
+        position: relative;
+        border: none;
+        height: 8px;
+        background: #EBC154;
+        width: 100px;
+        align-self: center;
+        margin-left: 310px;
+    }
 
-        .igm1 {
-            width: 100%;
-        }
+    .navbar-nav li {
+        padding-left: 18px;
 
+    }
 
-        .box {
-            background-image: url(/img/Hero.png);
-            height: 100vh;
-            width: 100%;
-            background-position: center;
-            background-size: cover;
-        }
+    .line5 {
+        position: relative;
+        border: none;
+        height: 3px;
+        background: #EBC154;
+        width: 130px;
+        margin-left: 310px;
+    }
 
-        .circ {
-            width: 100%;
-        }
+    .igm1 {
+        width: 100%;
     }
 
 
-
-
-
-    @media only screen and (max-width: 752px) {
-
-        .box {
-            background-image: url(/img/Hero.png);
-            height: 100vh;
-            width: auto;
-            background-position: center;
-            background-size: cover;
-        }
-
-        .cardholder .room-card {
-            width: 100%;
-        }
-
-        .form-input {
-            border-radius: 15px;
-            width: 100%;
-            padding: 5px;
-        }
-
-        .navbar-nav.ml-auto {
-            width: 100%;
-            background: rgba(0, 0, 0, 5);
-        }
-
-        .navbar .navbar-nav {
-            display: inline-block;
-            float: none;
-            vertical-align: top;
-        }
-
-        .navbar .navbar-collapse {
-            text-align: center;
-        }
-
-        .circ {
-            width: auto;
-        }
+    .box {
+        background-image: url(/img/Hero.png);
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
     }
 
-    @media (max-width:414px) {
-        .line4 {
-            position: relative;
-            border: none;
-            height: 3px;
-            background: #EBC154;
-            width: 150px;
-            margin-left: 90px;
-        }
+    .circ {
+        width: 100%;
+    }
+}
 
-        .line2 {
-            position: relative;
-            border: none;
-            height: 8px;
-            background: #EBC154;
-            width: 100px;
-            align-self: center;
-            margin-left: 90px;
-        }
 
-        .line5 {
-            position: relative;
-            border: none;
-            height: 3px;
-            background: #EBC154;
-            width: 150px;
-            margin-left: 130px;
-        }
-        
-       *{
-        overflow-x:hidden;
-       }
+
+@media only screen and (max-width: 752px) {
+
+    .box {
+        background-image: url(/img/Hero.png);
+        height: 100vh;
+        width: auto;
+        background-position: center;
+        background-size: cover;
     }
 
-    @media (max-width:360px) {
-        .line4 {
-            position: relative;
-            border: none;
-            height: 3px;
-            background: #EBC154;
-            width: 150px;
-            margin-left: 90px;
-        }
-
-        .line2 {
-            position: relative;
-            border: none;
-            height: 8px;
-            background: #EBC154;
-            width: 100px;
-            align-self: center;
-            margin-left: 110px;
-        }
-
-        .line5 {
-            position: relative;
-            border: none;
-            height: 3px;
-            background: #EBC154;
-            width: 150px;
-            margin-left: 100px;
-        }
-
-     
+    .cardholder .room-card {
+        width: 100%;
     }
+
+    .form-input {
+        border-radius: 15px;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .navbar-nav.ml-auto {
+        width: 100%;
+        background: rgba(0, 0, 0, 5);
+    }
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .circ {
+        width: auto;
+    }
+}
+
+@media (max-width:414px) {
+    .line4 {
+        position: relative;
+        border: none;
+        height: 3px;
+        background: #EBC154;
+        width: 150px;
+        margin-left: 90px;
+    }
+
+    .line2 {
+        position: relative;
+        border: none;
+        height: 8px;
+        background: #EBC154;
+        width: 100px;
+        align-self: center;
+        margin-left: 90px;
+    }
+
+    .line5 {
+        position: relative;
+        border: none;
+        height: 3px;
+        background: #EBC154;
+        width: 150px;
+        margin-left: 130px;
+    }
+
+    * {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width:360px) {
+    .line4 {
+        position: relative;
+        border: none;
+        height: 3px;
+        background: #EBC154;
+        width: 150px;
+        margin-left: 90px;
+    }
+
+    .line2 {
+        position: relative;
+        border: none;
+        height: 8px;
+        background: #EBC154;
+        width: 100px;
+        align-self: center;
+        margin-left: 110px;
+    }
+
+    .line5 {
+        position: relative;
+        border: none;
+        height: 3px;
+        background: #EBC154;
+        width: 150px;
+        margin-left: 100px;
+    }
+
+
+}

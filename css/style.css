@@ -148,30 +148,7 @@ a:hover {
 
 /** NAVIGATION STYLING STARTS HERE **/
 
-nav {
-    height: 60px;
-    z-index: 100;
-}
 
-.active .nav-link {
-    color: #EBC154 !important;
-}
-
-.nav-link {
-    color: #fff !important;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.nav-link:hover {
-    color: #EBC154;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.bg-dark {
-    background-color: rgba(0, 0, 0, 0) !important;
-}
 
 #hero-section {
     position: relative;

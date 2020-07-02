@@ -219,9 +219,10 @@ a {
     font-size: 16px;
     color: #EBC154;
   }
-  a .link{
+  .link{
     font-size: 6px;
   }
+
 footer {
     margin-top: 250px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/about-video.jpg);
@@ -320,6 +321,16 @@ footer .footer-navigation {
     align-self: center;
     margin-left: 570px;
 }
+
+.line {
+
+    border: none;
+    height: 6px;
+    background: #EBC154;
+    width: 80px;
+    margin-left: 30px;
+}
+
     }
 @media (max-width:1024px) {
     .line4 {

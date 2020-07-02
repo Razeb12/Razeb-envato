@@ -99,7 +99,7 @@ active {
     background: #EBC154;
     width: 100px;
     align-self: center;
-    margin-left: 170px;
+    margin-left: 230px;
 }
 
 .line3 {
@@ -282,7 +282,7 @@ footer .footer-navigation {
 
 
 
-@media (max-width:1920px) {
+@media only (max-width:1920px) {
         .line4 {
             position: relative;
             border: none;

@@ -60,7 +60,7 @@ nav{
 .wrap {
     background-image: url(/img/Frame\ 1.png);
     height: 700px;
-    width: auto;
+    width: 100%;
     background-position: center;
     background-size: cover;
 }
@@ -119,10 +119,6 @@ nav{
  width: 100%;
 }
 
-.igm1 {
- width: 100%;
- float:right;
-}
 .txt {
     color: #EBC154;
     font-size: large;
@@ -249,12 +245,20 @@ footer .footer-navigation {
         padding-left: 18px;
       
       }
+      .line5 {
+        position: relative;  
+        border: none; 
+        height: 3px; 
+        background:#EBC154; 
+       width: 130px;
+       margin-left: 310px;
+    }
       
 
 .box {
     background-image: url(/img/Hero.png);
     height: 700px;
-    width: auto;
+    width: 100%;
     background-position: center;
     background-size: cover;
 }
@@ -268,6 +272,14 @@ footer .footer-navigation {
 
 
 @media only screen and (max-width: 752px) {
+    
+.box {
+    background-image: url(/img/Hero.png);
+    height: 700px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+}
     .cardholder .room-card {
         width: 100%;
     }
@@ -289,6 +301,9 @@ footer .footer-navigation {
       .navbar .navbar-collapse {
         text-align: center;
       }
+      .circ {
+        width: auto;
+    }
 }
 
 @media (max-width:414px){
@@ -308,6 +323,14 @@ footer .footer-navigation {
        width: 100px;
        align-self: center;
        margin-left: 90px;
+    }
+    .line5 {
+        position: relative;  
+        border: none; 
+        height: 3px; 
+        background:#EBC154; 
+       width: 150px;
+       margin-left: 130px;
     }
 }
 
@@ -329,4 +352,16 @@ footer .footer-navigation {
        align-self: center;
        margin-left: 110px;
     }
-}
+    .line5 {
+        position: relative;  
+        border: none; 
+        height: 3px; 
+        background:#EBC154; 
+       width: 150px;
+       margin-left: 100px;
+    }
+    .igm{
+        width: ;
+    }
+
+    }
